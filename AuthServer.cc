@@ -57,7 +57,7 @@ DWORD COD_AW 			= 0x41560914;
 	char* AW		= "Data/Hacks/AW.xex";	
 #endif
 
-void DumpKeyVault(unsigned char *Data);
+
 void DoAuth(SOCKET ClientSocket, unsigned char *CpuKey, unsigned char *ModuleHash);
 void SendChallengeResponse(SOCKET ClientSocket, unsigned char *Token, unsigned char *Salt);
 void UpdatePresence(SOCKET ClientSocket, unsigned char *Token, char *Gamertag, DWORD TitleId);
